@@ -1,6 +1,6 @@
 # GeoJSON
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/aoliveti/geojson)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/aoliveti/geojson/go.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/aoliveti/geojson/go.yaml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/aoliveti/geojson)](https://pkg.go.dev/github.com/aoliveti/geojson)
 [![codecov](https://codecov.io/gh/aoliveti/geojson/graph/badge.svg?token=TmNqSDCdJ9)](https://codecov.io/gh/aoliveti/geojson)
 [![Go Report Card](https://goreportcard.com/badge/github.com/aoliveti/geojson)](https://goreportcard.com/report/github.com/aoliveti/geojson)
