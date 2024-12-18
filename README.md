@@ -65,13 +65,11 @@ Here is a quick overview of how to work with `geojson.Object` and its methods:
 
   var obj geojson.Object
   if err := obj.UnmarshalJSON([]byte(data)); err != nil {
-    fmt.Println("error processing GeoJSON:", err)
-	return
+    ...
   }
 
   if !obj.IsFeature() {
-    fmt.Println("not a valid GeoJSON feature")
-	return
+    ...
   }
 
   feature, _ := obj.Feature()
@@ -269,8 +267,7 @@ The `geojson.Coordinates` type represents a GeoJSON coordinate array (WGS84), co
 ```go
 coordinates, err := geojson.NewCoordinates([]float64{12.4924, 41.8902, 45})
 if err != nil {
-    fmt.Println("error creating coordinates:", err)
-    return
+    ...
 }
 
 fmt.Println("longitude:", coordinates.Longitude())
