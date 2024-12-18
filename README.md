@@ -106,8 +106,7 @@ feature := builder.SetGeometry(geometry).
 
 data, err := json.Marshal(&feature)
 if err != nil {
-    fmt.Println("error encoding feature:", err)
-    return
+    ...
 }
 
 fmt.Println(string(data))
